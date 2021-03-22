@@ -1,11 +1,19 @@
-body {background-color:black;}
-h1{color:grey;}
-div{
-  background-color:white;
-  border: 5px hidden;
-  border-radius: 10px;
+body {background-color:black;
+color:white;
+font:arial;
 }
-form{  
-  padding: 25px 25px 25px 25px;
+h1{
+    color:grey;
+}
+.maindiv{
+  margin: auto;
+  width: 50%;
+  background-color:white;
+  color:black;
+  padding: 20px;
+  border-radius: 25px;
+}
+.highlight {
+  background-color: yellow;
 }
 
