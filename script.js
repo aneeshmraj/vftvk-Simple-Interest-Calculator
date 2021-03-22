@@ -3,7 +3,7 @@ function compute()
     var principal = document.getElementById("principal");
     if(principal.value<=0){
         alert("Enter a positive number");
-        fname.focus();
+        principal.focus();
         return false;
     }    
     rate = document.getElementById("Rate").value;
@@ -20,4 +20,3 @@ function updateSlider()
     rate = document.getElementById("Rate").value;
     document.getElementById('rate').innerHTML = rate+"%";
 }
-        
